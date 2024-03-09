@@ -15,7 +15,7 @@
                 extend: {
                     colors: {
                         "gradient-start": '#FF0000',
-                        "gradient-end" : "#FF8938",
+                        "gradient-end": "#FF8938",
                     }
                 }
             }
@@ -30,26 +30,23 @@
 <body>
     <!-- header -->
     <header class="container mx-auto my-24">
-        <div class="hero">
-            <div class="hero-content flex-col-reverse lg:flex-row">
-                <div>
-                    <h1 class="text-5xl font-extrabold md:text-8xl lg:text-8xl">It's good <br>
-                        tea time at The <br>Tea House</h1>
-                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
-                    </p>
-                    <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Explore More <i
-                            class="fa-solid fa-square-arrow-up-right"></i></button>
-                </div>
-                <div>
-                    <img src="images/banner.png" class="max-w-sm rounded-lg w-full" />
-                    <!-- banner badge -->
-                    <div
-                        class="flex items-center gap-5 py-4 px-3 rounded-md drop-shadow-lg shadow-lg w-60 -mt-20 bg-white">
-                        <i class="fa-solid fa-star text-3xl text-amber-400"></i>
-                        <div>
-                            <h3 class="text-3xl font-bold">5.00</h3>
-                            <p>Trust Pilot Ratings</p>
-                        </div>
+        <div class="flex  lg:justify-between flex-col-reverse md:justify-between lg:flex-row">
+            <div>
+                <h1 class="text-5xl font-extrabold md:text-8xl lg:text-8xl">It's good <br>
+                    tea time at The <br>Tea House</h1>
+                <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                </p>
+                <button class="btn text-white bg-gradient-to-r from-gradient-start to-gradient-end">Explore More <i
+                        class="fa-solid fa-square-arrow-up-right"></i></button>
+            </div>
+            <div class="">
+                <img src="images/banner.png" class="rounded-lg w-full" />
+                <!-- banner badge -->
+                <div class="flex items-center gap-5 py-4 px-3 rounded-md drop-shadow-lg shadow-lg w-60 -mt-20 bg-white">
+                    <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                    <div>
+                        <h3 class="text-3xl font-bold">5.00</h3>
+                        <p>Trust Pilot Ratings</p>
                     </div>
                 </div>
             </div>
@@ -309,8 +306,10 @@
                 <h6 class="text-2xl font-semibold">Subscribe to our <br> newsletter</h6>
                 <fieldset class="form-control w-80">
                     <div class="">
-                        <input type="text" placeholder="username@site.com" class="p-3 rounded outline-none bg-transparent border-b-2 border-gray-900" />
-                        <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end join-item text-white"><i class="fa-solid fa-caret-right"></i></button>
+                        <input type="text" placeholder="username@site.com"
+                            class="p-3 rounded outline-none bg-transparent border-b-2 border-gray-900" />
+                        <button class="btn bg-gradient-to-r from-gradient-start to-gradient-end join-item text-white"><i
+                                class="fa-solid fa-caret-right"></i></button>
                     </div>
                 </fieldset>
             </form>
